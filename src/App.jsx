@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import  { useContext, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import Header from './components/Header';
@@ -10,10 +11,17 @@ import Students from './pages/Students';
 import Gallery from './pages/Gallery';
 import ContactUs from './pages/ContactUs';
 import ApplyNow from './pages/ApplyNow';
+import { ThemeContext } from './contexts/ThemeContext';
 
 export default function App() {
+  const { theme } = useContext(ThemeContext);
+
+  useEffect(() => {
+    document.body.classList.toggle('dark', theme === 'dark');
+  }, [theme]);
+
   return (
-    <Router basename="/school-website">
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
@@ -27,6 +35,6 @@ export default function App() {
         <Route path='/apply' element={<ApplyNow />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
