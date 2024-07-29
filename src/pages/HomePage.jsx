@@ -82,7 +82,7 @@ const HomePage = () => {
       </div>
 
       {/* School Introduction Section */}
-      <div className="pt-4 pb-8 px-8 bg-white relative z-10">
+      <div className="pt-4 pb-8 px-8 dark:bg-dark-background bg-white relative z-10">
         <h2 className="md:text-3xl text-2xl font-bold mb-4 underline">About Our School</h2>
         <p className="text-lg">
           Springdale Public School, founded in 1985, has been dedicated to providing quality education and holistic development to students.
@@ -101,7 +101,7 @@ const HomePage = () => {
       </div>
 
       {/* Event Section */}
-      <div className="pt-4 px-8 pb-12 h-full bg-gray-100">
+      <div className="pt-4 px-8 pb-12 h-full dark:bg-dark-background bg-gray-100">
         <h2 className="md:text-3xl text-2xl font-bold mb-4 underline">Events</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-blue-500 text-white p-2 rounded-lg shadow-md flex flex-col items-center">
@@ -126,7 +126,7 @@ const HomePage = () => {
       </div>
 
       {/* Gallery Section */}
-      <div className="py-4 px-8 mb-8 bg-white">
+      <div className="py-4 px-8 mb-8 bg-white dark:bg-dark-background">
         <h2 className="md:text-3xl text-2xl font-bold mb-4 underline">Gallery</h2>
         <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
           <img src={galleryImage1} alt="Gallery Image 1" className="w-full h-64 object-cover rounded-lg shadow-lg shadow-black transition-transform duration-500 ease-in-out transform hover:scale-105"/>
@@ -141,7 +141,7 @@ const HomePage = () => {
       </div>
 
       {/* Useful Information Section */}
-      <div className="py-4 px-8 bg-gray-200">
+      <div className="py-4 px-8 bg-gray-200 dark:bg-dark-background">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
         <div className=" bg-white py-2 rounded-lg shadow-md flex flex-col">
             <h3 className="w-full bg-blue-500 text-white py-1 px-4 text-[1.2rem] font-bold">Latest News</h3>
@@ -191,10 +191,10 @@ const HomePage = () => {
       </div>
 
       {/* Our Team Section */}
-      <div className="pt-4 pb-12 px-8 bg-white">
+      <div className="pt-4 pb-12 px-8 dark:bg-dark-background bg-white">
         <h2 className="md:text-3xl text-2xl font-bold mb-4 underline">Our Team</h2>
-        <div className="grid md:grid-cols-4 grid-cols-2 gap-3">
-          <div className="flex flex-col items-center bg-gray-200 p-4 rounded-lg shadow-lg shadow-black hover:bg-gray-300">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-3 text-black dark:text-light-text">
+          <div className="flex flex-col items-cente bg-gray-200 p-4 rounded-lg shadow-lg shadow-black hover:bg-gray-300">
             <img src={teamImage1} alt="Team Member 1" className="h-32 w-32 rounded-full mb-2"/>
             <h3 className="text-[1.3rem] font-bold">John Doe</h3>
             <p>Principal</p>
@@ -238,7 +238,7 @@ const HomePage = () => {
       </div>
 
       {/* Review Carousel Section */}
-      <div className="pt-4 pb-8 mb-8 px-8 bg-gray-200">
+      <div className="pt-4 pb-8 mb-8 px-8 dark:bg-dark-background bg-gray-200">
         <h2 className="text-3xl font-bold mb-4 underline">What Our Parents Say</h2>
         <div className="w-full">
           <Carousel 

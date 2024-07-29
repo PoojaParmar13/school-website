@@ -17,27 +17,15 @@ const Header = () => {
   }, [location]);
 
   return (
-    <nav className="bg-light-background dark:bg-dark-background text-light-text dark:text-dark-text px-2 py-1 flex items-center justify-between fixed top-0 left-0 w-full z-50 border-b-4 border-black">
+    <nav className="bg-light-background dark:bg-dark-background text-light-text dark:text-dark-text px-2 py-1 flex items-center justify-between fixed top-0 left-0 w-full z-50 border-b-4 border-black dark:border-white">
       {/* Logo */}
       <div className="flex items-center pl-4">
         <img src={logo} alt="Springdale Public School Logo" className="h-12 md:h-16 pl-1 mr-2" />
       </div>
 
-      {/* Mobile Menu Button */}
-      <div className="md:hidden flex items-center">
-        <button 
-          onClick={toggleMobileMenu} 
-          className="text-black dark:text-white text-2xl border-none outline-none bg-transparent p-0"
-          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
-          aria-expanded={isMobileMenuOpen}
-        >
-          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
-        </button>
-      </div>
-
       {/* Navigation Links */}
       <ul 
-        className={`md:flex md:space-x-5 absolute md:relative top-[3.7rem] right-0 bg-light-background dark:bg-dark-background w-full md:w-auto transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:translate-x-0 md:top-auto md:pt-0 md:pb-0 pt-4 pl-8 pb-4`}
+        className={`md:flex md:space-x-5 absolute md:relative top-[3.7rem] right-0 bg-light-background dark:bg-dark-background w-full md:w-auto transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0 border-b-2 border-black dark:border-white' : 'translate-x-full'} md:translate-x-0 md:top-auto md:pt-0 md:pb-0 pt-4 pl-8 pb-4`}
       >
         <li><Link to="/" className="block md:inline text-light-text dark:text-dark-text font-bold text-[1.3rem] hover:text-blue-900 hover:underline py-1 md:py-0">Home</Link></li>
         <li><Link to="/about" className="block md:inline text-light-text dark:text-dark-text font-bold text-[1.3rem] hover:text-blue-900 hover:underline py-1 md:py-0">About Us</Link></li>
@@ -50,12 +38,24 @@ const Header = () => {
       </ul>
 
       {/* Theme Toggle Button */}
-      <div className="hidden md:flex items-center">
+      <div className=" md:flex md:items-center md:ml-0 ml-[14rem]">
         <button 
           className="text-black dark:text-white border-none outline-none bg-transparent p-0"
           aria-label="Toggle theme"
         >
           <ThemeToggleButton />
+        </button>
+      </div>
+
+      {/* Mobile Menu Button */}
+      <div className="md:hidden flex items-center">
+        <button 
+          onClick={toggleMobileMenu} 
+          className="text-black dark:text-white text-2xl border-none outline-none bg-transparent p-0"
+          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMobileMenuOpen}
+        >
+          {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
 

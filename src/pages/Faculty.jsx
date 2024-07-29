@@ -101,9 +101,9 @@ const facultyMembers = [
 const Faculty = () => {
   return (
     <div className="md:px-8 md:pb-8 p-1 bg-gray-200 md:pt-[7rem] pt-[6rem] border-gray-800 border-4">
-      <h1 className="text-3xl font-bold text-gray-600 mb-8 text-center underline">Faculty & Staff</h1>
+      <h1 className="text-3xl font-bold text-gray-600 dark:text-light-text mb-8 text-center underline">Faculty & Staff</h1>
       {facultyMembers.map((member, index) => (
-        <div key={index} className="md:mx-40 mx-2 bg-white my-2 p-4 rounded shadow-md border border-gray-600">
+        <div key={index} className="md:mx-40 mx-2  bg-white dark:bg-dark-background my-2 p-4 rounded shadow-md border border-gray-600">
           <div className="md:flex items-start mx-8">
             <img 
               src={member.image} 
@@ -111,10 +111,10 @@ const Faculty = () => {
               className="w-24 h-24 mt-5 mr-6 md:ml-0  object-cover rounded-full border border-gray-600"
             />
             <div className="md:flex-1 md:ml-10 md:mt-0 mt-5">
-              <h2 className="text-xl text-black underline font-semibold mb-2">{member.post}</h2>
-              <p className="text-lg text-gray-800 font-medium mb-1">{member.name}</p>
-              <p className="text-md text-gray-700 mb-1">Degree: {member.degree}</p>
-              <p className="text-md text-gray-700">Experience: {member.experience}</p>
+              <h2 className="text-xl text-black dark:text-dark-text underline font-semibold mb-2">{member.post}</h2>
+              <p className="text-lg text-gray-800 dark:text-dark-text font-medium mb-1">{member.name}</p>
+              <p className="text-md text-gray-700 dark:text-dark-text mb-1">Degree: {member.degree}</p>
+              <p className="text-md text-gray-700 dark:text-dark-text">Experience: {member.experience}</p>
             </div>
           </div>
         </div>
