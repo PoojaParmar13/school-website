@@ -21,11 +21,10 @@ export default function App() {
   }, [theme]);
 
   return (
-    <div className='container'>
-    <BrowserRouter basename='/school-website'>
+    <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path='/school-website' element={<HomePage />} />
+        <Route exact path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutUs />} />
         <Route path='/academic' element={<Academics />} />
         <Route path='/admission' element={<Admissions />} />
@@ -37,6 +36,5 @@ export default function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-    </div>
   );
 }
