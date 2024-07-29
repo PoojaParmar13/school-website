@@ -1,5 +1,5 @@
 import  { useContext, useEffect } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import Header from './components/Header';
@@ -21,7 +21,7 @@ export default function App() {
   }, [theme]);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
@@ -35,6 +35,6 @@ export default function App() {
         <Route path='/apply' element={<ApplyNow />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
