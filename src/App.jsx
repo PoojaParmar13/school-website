@@ -1,5 +1,5 @@
 import  { useContext, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import Header from './components/Header';
@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <div className='container'>
-    <BrowserRouter basename='/school-website'>
+    <HashRouter basename='/school-website'>
       <Header />
       <Routes>
         <Route exact path='/school-website' element={<HomePage />} />
@@ -36,7 +36,7 @@ export default function App() {
         <Route path='/apply' element={<ApplyNow />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 }
