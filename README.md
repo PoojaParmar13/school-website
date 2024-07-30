@@ -4,17 +4,6 @@
 
 This project is a React-based school website created using Vite and styled with Tailwind CSS. The website includes various features such as admissions information, faculty listings, a gallery, and more.
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Building for Production](#building-for-production)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## Getting Started
 
 Follow these instructions to set up and run the project locally.
@@ -92,36 +81,6 @@ Make sure you have the following installed:
     Netlify: Offers easy deployment with continuous integration.
     GitHub Pages: Can be used for hosting static sites.
 
-**Contributing**
-    Contributions are welcome! Please follow these steps to contribute:
+After setting up GitHub Pages in your repository settings, your site will be deployed to:
 
-1. Fork the repository.
-2. Create a new branch:
-
-        git checkout -b feature-branch
-
-3. Make your changes and commit them:
-
-        git commit -am 'Add new feature'
-
-4. Push to the branch:
-
-        git push origin feature-branch
-
-5. Create a pull request on GitHub.
-
-**License**
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-**Acknowledgements**
-React: For building the UI components.
-Vite: For providing a fast build tool.
-Tailwind CSS: For offering a utility-first CSS framework.
-GitHub: For hosting the repository and version control.
-
-
-
-
-
-
-
+        https://PoojaParmar13.github.io/school-website
