@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const ContactUs = () => {
   const googleMapsUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.142688743024!2d-77.03687048464924!3d38.90719057957019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b75d2f4a3c75%3A0x8c1a2de2ff926f11!2s1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC%2020050%2C%20USA!5e0!3m2!1sen!2sin!4v1659472275942!5m2!1sen!2sin"; // Replace with your Google Maps URL
@@ -55,18 +54,18 @@ const ContactUs = () => {
             </div>
             <div className="mb-2 flex items-center">
               <p className="text-lg font-medium dark:text-dark-text text-black pr-4">Follow Us:</p>
-              <div className="flex space-x-4 gap-2 pt-1">
+              <div className="flex space-x-5 pt-1">
                 <a href="https://instagram.com" className="text-lg text-gray-800 dark:text-dark-text dark:hover:text-blue-600 hover:text-blue-600" aria-label="Instagram">
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <FaInstagram />
                 </a>
                 <a href="https://facebook.com" className="text-lg text-gray-800 dark:text-dark-text dark:hover:text-blue-600 hover:text-blue-600" aria-label="Facebook">
-                  <FontAwesomeIcon icon={faFacebookF} />
+                  <FaFacebookF />
                 </a>
                 <a href="https://linkedin.com" className="text-lg text-gray-800 dark:text-dark-text dark:hover:text-blue-600 hover:text-blue-600" aria-label="LinkedIn">
-                  <FontAwesomeIcon icon={faLinkedinIn} />
+                  <FaLinkedinIn />
                 </a>
                 <a href="https://twitter.com" className="text-lg text-gray-800 dark:text-dark-text dark:hover:text-blue-600 hover:text-blue-600" aria-label="Twitter">
-                  <FontAwesomeIcon icon={faTwitter} />
+                  <FaTwitter />
                 </a>
               </div>
             </div>
