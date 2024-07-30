@@ -38,7 +38,7 @@ const Header = () => {
       </ul>
 
       {/* Theme Toggle Button */}
-      <div className=" md:flex md:items-center md:ml-0 ml-[14rem]">
+      <div className=" md:flex md:items-center ml-auto md:mr-8 mr-4">
         <button 
           className="text-black dark:text-white border-none outline-none bg-transparent p-0"
           aria-label="Toggle theme"
