@@ -30,12 +30,12 @@ import achievments3 from '../assets/Achievements3.jpg';
 
 const Students = () => {
   return (
-    <div className="bg-gray-200 md:px-8  dark:bg-dark-background px-4  pb-8 pt-[7rem] border-gray-800 border-4">
+    <div className="md:mr-0 mr-[-6rem]  bg-gray-200 md:px-8  dark:bg-dark-background px-4  pb-8 pt-[7rem] border-gray-800 border-4">
       <h1 className="md:text-4xl text-3xl font-bold text-blue-600 mb-8 mt-2 text-center">Students Life in Our School</h1>
       <div className="max-w-7xl mx-auto">
         <section className="mb-12 md:flex">
           <div className="md:w-2/5 pr-4 w-[18rem] md:pl-0 pl-[1rem]">
-            <img src={studentImage} alt="Students Life in our school" className="w-80 h-auto ml-12 mt-2" />
+            <img src={studentImage} alt="Students Life in our school" className="w-80 h-auto md:ml-12 ml-0 mt-2" />
           </div>
           <div className="md:w-3/5 w-full">
             <p className="text-lg  mr-[-2rem] text-gray-950 dark:text-dark-text font-semibold mt-8 pr-10">

@@ -7,7 +7,7 @@ import library from '../assets/library1.jpg';
 
 const Academics = () => {
   return (
-    <div className="md:px-8 md:pb-8 p-2 bg-gray-200 md:pt-[7rem] pt-[6rem] border-gray-800 border-4">
+    <div className="md:mr-0 mr-[-6rem] md:px-8 md:pb-8 p-2 bg-gray-200 md:pt-[7rem] pt-[6rem] border-gray-800 border-4 w-">
         <h1 className="text-3xl font-bold text-gray-600 dark:text-light-text mb-8 text-center underline">Academics at Springdale Public School</h1>
         <div className="md:mx-40 mx-1 md:px-10 px-4 dark:bg-dark-background bg-white my-2 p-4 rounded shadow-md border border-gray-600">
 

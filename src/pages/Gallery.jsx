@@ -62,13 +62,13 @@ const GalleryPage = () => {
         </h2>
         <div className="flex flex-col md:flex-row items-center md:items-start md:ml-8 w-full md:w-auto">
           <div className="flex flex-col md:flex-row items-center md:items-start w-full md:w-auto md:ml-4">
-            <label className="text-[1.1rem] font-semibold -ml-[14rem] md:ml-0 md:m-0 mt-[2rem] md:mb-0 md:mr-2">
+            <label className="text-[1.1rem] font-semibold -ml-[10rem] md:ml-0 md:m-0 mt-[2rem] md:mb-0 md:mr-2">
               Filter by category:
             </label>
             <select 
               value={selectedCategory} 
               onChange={handleCategoryChange}
-              className="border-gray-600 dark:text-light-text dark:border-gray-500 -mb-[2rem] md:-mb-[0.5rem] border-2 px-2 ml-[5rem]  md:ml-0 md:mt-0 -mt-[1.5rem] md:mr-2 py-[0.1rem] rounded-md w-50 md:w-auto"
+              className="border-gray-600 dark:text-light-text  dark:border-gray-500 -mb-[2rem] md:-mb-[0.5rem] border-2 px-2 ml-[8rem]  md:ml-0 md:mt-0 -mt-[1.5rem] md:mr-2 py-[0.1rem] rounded-md w-50 md:w-auto"
             >
               <option value="All">All</option>
               <option value="Event">Events</option>
