@@ -63,14 +63,14 @@ const Students = () => {
                 We also offer a range of facilities, including a well-maintained sports ground, a swimming pool, and state-of-the-art classrooms that support interactive learning.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={campusImage1} alt="Campus View 1" className="rounded-lg shadow-black dark:shadow-white shadow-lg w-full h-auto object-cover" />
@@ -103,14 +103,14 @@ const Students = () => {
                 In addition to core subjects, the labs offer opportunities for interdisciplinary projects and research, allowing students to explore their interests and develop practical skills.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={labImage1} alt="Lab View 1" className="rounded-lg shadow-black dark:shadow-white shadow-lg w-full h-auto object-cover" />
@@ -146,14 +146,14 @@ const Students = () => {
                 Students have the opportunity to work on real-world projects and develop practical skills that complement their academic studies.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={labImage7} alt="Lab View 7" className="rounded-lg shadow-black dark:shadow-white shadow-lg w-full h-auto object-cover" />
@@ -177,14 +177,14 @@ const Students = () => {
                 Students can develop their technical skills through various software programs and applications used in the industry.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={computerImage1} alt="Computer Lab View 1" className="rounded-lg shadow-black dark:shadow-white shadow-lg w-full h-auto object-cover" />
@@ -211,14 +211,14 @@ const Students = () => {
                 The library is designed to offer a quiet and comfortable space for reading, studying, and accessing resources. It also hosts various events and workshops to foster a love for literature and learning among students.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={libraryImage1} alt="Library View 1" className="rounded-lg shadow-black dark:shadow-white shadow-lg w-full h-auto object-cover" />
@@ -242,7 +242,7 @@ const Students = () => {
                 The transport services are designed to meet the needs of all students, providing a reliable and efficient solution for daily commutes.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[2.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <img src={transportImage} alt="Transport Facilities" className="rounded-lg dark:shadow-white shadow-black shadow-lg w-full h-auto object-cover" />
             </div>
           </div>
@@ -259,14 +259,14 @@ const Students = () => {
                 From academic clubs like the Science Club and Debate Society to creative outlets such as Drama Club and Art Society, there is something for everyone. Participation in these activities fosters teamwork, leadership skills, and a sense of community.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={extracarriculam1} alt="Extracurricular Activities 1" className="rounded-lg dark:shadow-white shadow-black shadow-lg w-full h-auto object-cover" />
@@ -296,14 +296,14 @@ const Students = () => {
                 - Top Performers in the Annual Art Exhibition
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={achievments1} alt="Achievements 1" className="rounded-lg dark:shadow-white shadow-black shadow-lg w-full h-auto object-cover" />
@@ -330,14 +330,14 @@ const Students = () => {
                 Leadership opportunities also extend to various clubs and societies, where students can develop and practice their leadership skills. Through these roles, students learn valuable lessons in teamwork, problem-solving, and effective communication.
               </p>
             </div>
-            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[18rem] md:pl-0 ">
+            <div className="md:ml-[8rem] md:mt-[2rem] mt-0 ml-[3.5rem] md:w-2/5 md:pr-4 w-[12rem] md:pl-0 ">
               <Carousel 
                 infiniteLoop 
                 autoPlay 
                 showThumbs={false} 
                 showIndicators={true} 
                 showStatus={false} 
-                className="mb-8"
+                className="mb-8 md:ml-[0rem] ml-[-2rem]"
               >
                 <div>
                   <img src={council1} alt="Student Council 1" className="rounded-lg dark:shadow-white shadow-black shadow-lg w-full h-auto object-cover" />

@@ -82,14 +82,14 @@ const Academics = () => {
             </p>
           </div>
           <div className="flex-1 flex justify-end">
-            <div className=" md:mt-20 mt-0 mr-5 md:w-full w-[20rem] md:ml-0 ml-[1.5rem] sm:w-4/5 lg:w-3/4 xl:w-2/3">
+            <div className=" md:mt-20 mt-0 mr-10 md:w-full w-[20rem] md:ml-0 ml-[1.5rem] sm:w-4/5 lg:w-3/4 xl:w-2/3">
               <Carousel 
                 showArrows={true} 
                 showThumbs={false} 
                 infiniteLoop={true} 
                 autoPlay={true} 
                 interval={3000}
-                className="w-50 h-50 rounded-lg"
+                className="w-50 h-50 rounded-lg md:mr-[0rem] mr-[8rem]"
               >
                 <div className="bg-gray-200 rounded">
                   <img src={ClassroomImage1} alt="Classroom 1" className="w-50 h-50 object-cover rounded-lg" />
